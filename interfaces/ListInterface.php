@@ -1,4 +1,5 @@
 <?php
+require_once 'CollectionInterface.php';
 
 interface ListInterface extends Collection {
     public function add(mixed $item): void;

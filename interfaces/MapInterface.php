@@ -1,6 +1,7 @@
 <?php
+require_once 'CollectionInterface.php';
 
-interface Map extends Collection {
+interface MapInterface extends Collection {
     public function put(mixed $key, mixed $value): void;
     public function remove(mixed $key): void;
     public function get(mixed $key): mixed;
